@@ -4,7 +4,7 @@ import { createConnection } from 'mysql';
 //   host: "localhost",
 //   user: "root",
 //   password: "password",
-//   database: "moviehub",
+//   database: "devdemoshop",
 //   port: 3306,
 //   waitForConnections: true,
 //   connectionLimit: 10,
@@ -14,14 +14,14 @@ import { createConnection } from 'mysql';
 //   host: "localhost",
 //   user: "root",
 //   password: "password",
-//   database: "moviehub",
+//   database: "devdemoshop",
 //   port: 3306,
 // });
 const connectionMySQL = createConnection({
   host: 'localhost',
   user: 'rootuser',
   password: 'sitar123',
-  database: 'moviehub',
+  database: 'devdemoshop',
   port: 3306,
 });
 
